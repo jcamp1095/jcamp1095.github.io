@@ -2,11 +2,9 @@
 
 p {
 	font-family: Helvetica;
-	font-size: 5px;
+	font-size: 12px;
 }
 
 .para {
-	text-indent: 50px;
-	font-size: 25px;
-	background-color: red;
+	text-indent: 15px;
 }
