@@ -1,1 +1,8 @@
-#Resume:
+.para {
+	text-indent: 15 px;
+}
+
+p {
+	font-family: Helvetica;
+	font-size: 12 px;
+}
