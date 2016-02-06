@@ -17,12 +17,11 @@ body {
 	margin-right: 25%;
 }
 
-title {
+h2 {
 	text-align: center;
 	background-color: 5858FA;
 }
 
 .border {
-	border_style: dashed;
-	border_color: white;
+	border-style: dashed;
 }
