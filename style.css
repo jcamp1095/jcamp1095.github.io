@@ -3,6 +3,7 @@
 p {
 	font-family: Helvetica;
 	font-size: 13px;
+	color: white;
 }
 
 .para {
@@ -15,6 +16,7 @@ title {
 }
 
 body {
-	background-color: F2F2F2;
-	border-width: 20%;
+	background-color: gray;
+	margin-left: 25%;
+	margin-right: 25%;
 }
