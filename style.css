@@ -10,13 +10,19 @@ p {
 	text-indent: 20px;
 }
 
-title {
-	text-align: center;
-	background-color: 5858FA;
-}
 
 body {
 	background-color: gray;
 	margin-left: 25%;
 	margin-right: 25%;
+}
+
+title {
+	text-align: center;
+	background-color: 5858FA;
+}
+
+.border {
+	border_style: dashed;
+	border_color: white;
 }
