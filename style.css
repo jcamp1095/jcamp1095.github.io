@@ -1,0 +1,20 @@
+
+
+p {
+	font-family: Helvetica;
+	font-size: 13px;
+}
+
+.para {
+	text-indent: 20px;
+}
+
+title {
+	text-align: center;
+	background-color: 5858FA;
+}
+
+body {
+	background-color: F2F2F2;
+	border-width: 20%;
+}
