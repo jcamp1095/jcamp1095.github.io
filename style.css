@@ -2,14 +2,62 @@
 
 p {
 	font-family: Helvetica;
-	font-size: 13px;
+	font-size: 15px;
 	color: white;
 }
 
+img {
+	width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.para {
+	text-indent: 20px;
+}
+
+
+body {
+	background-color: gray; 
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+h3 {
+	text-align: center;
+	background-color: 5858FA;
+	font-family: Helvetica;
+	font-size: 30px;
+	color: black;
+
+}
+h2 {
+	font-family: Helvetica;
+	font-size: 20px;
+	color: white;
+}
+
+.border {
+	border-style: double;
+	border-color: white;
+	padding: 20px;
+}
+
+.bar {
+    list-style-type: none;
+    padding: 0;
+    width: 202px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    border: 1px solid #555;
+    background-color: #333;
+}
 
 li {
     float: left;
     display: inline;
+    text-align: center;
 }
 
 li a {
@@ -23,45 +71,4 @@ li a {
 /* Change the link color to #111 (black) on hover */
 li a:hover {
     background-color: #111;
-}
-
-
-img {
-	align: middle;
-}
-
-.para {
-	text-indent: 20px;
-}
-
-
-body {
-	background-color: gray; 
-	margin-left: 25%;
-	margin-right: 25%;
-}
-
-h3 {
-	text-align: center;
-	background-color: 5858FA;
-	font-family: Helvetica;
-	font-size: 30px;
-	color: black;
-
-}
-
-.border {
-	border-style: dashed;
-	border-color: white;
-}
-
-.bar {
-    list-style-type: none;
-    padding: 0;
-    width: 100px;
-    margin-left: auto;
-    margin-right: auto;
-    overflow: hidden;
-    border: 1px solid #555;
-    background-color: #333;
 }
