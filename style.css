@@ -6,6 +6,37 @@ p {
 	color: white;
 }
 
+
+li {
+    float: left;
+    display: inline;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+.bar {
+    list-style-type: none;
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #555;
+    background-color: #333;
+}
+
+
 .para {
 	text-indent: 20px;
 }
@@ -17,7 +48,7 @@ body {
 	margin-right: 25%;
 }
 
-h2 {
+h3 {
 	text-align: center;
 	background-color: 5858FA;
 }
