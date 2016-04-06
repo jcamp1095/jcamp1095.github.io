@@ -1,74 +1,64 @@
 
 
-p {
-	font-family: Helvetica;
-	font-size: 15px;
-	color: white;
-}
 
-.pic {
-	width: 400px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.para {
-	text-indent: 20px;
-}
-
-
-body {
-	background-color: gray; 
-	margin-left: 20%;
-	margin-right: 20%;
-}
-
-h3 {
-	text-align: center;
-	font-family: Helvetica;
-	font-size: 30px;
-	color: black;
-
-}
-h2 {
-	font-family: Helvetica;
-	font-size: 20px;
-	color: white;
-}
-
-.border {
-	border-style: solid;
-	border-color: white;
-	background-color: #333;
-	padding: 20px;
-}
-
-ul {
-    list-style-type: none;
-    padding: 0;
-    width: 210px;
-    margin-left: auto;
-    margin-right: auto;
-    overflow: hidden;
-    border: 1px solid #555;
-    background-color: #333;
-}
-
-li {
-    float: left;
-    display: inline;
-    text-align: center;
-}
-
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-/* Change the link color to #111 (black) on hover */
-li a:hover {
-    background-color: #111;
-}
+  body {
+      font: 400 15px Lato, sans-serif;
+      line-height: 1.8;
+      color: #818181;
+  }
+  h2 {
+      font-size: 24px;
+      text-transform: uppercase;
+      color: #303030;
+      font-weight: 600;
+      margin-bottom: 30px;
+  }
+  h4 {
+      font-size: 19px;
+      line-height: 1.375em;
+      color: #303030;
+      font-weight: 400;
+      margin-bottom: 30px;
+  }  
+  .jumbotron {
+      background-color: #67605;
+      color: gray;
+      padding: 100px 25px;
+      font-family: Montserrat, sans-serif;
+  }
+  .container-fluid {
+      padding: 60px 50px;
+  }
+  .bg-grey {
+      background-color: #f6f6f6;
+  }
+  .logo-small {
+      color: #67605;
+      font-size: 50px;
+  }
+  .logo {
+      color: #67605;
+      font-size: 200px;
+  }
+  .navbar {
+      margin-bottom: 0;
+      background-color: #67605;
+      z-index: 9999;
+      border: 0;
+      font-size: 12px !important;
+      line-height: 1.42857143 !important;
+      letter-spacing: 4px;
+      border-radius: 0;
+      font-family: Montserrat, sans-serif;
+  }
+  .navbar li a, .navbar .navbar-brand {
+      color: #fff !important;
+  }
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+      color: #fff !important;
+      background-color: black !important;
+  }
+  .navbar-default .navbar-toggle {
+      border-color: transparent;
+      color: #fff !important;
+  }
