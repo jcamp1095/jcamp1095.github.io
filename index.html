@@ -1,363 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="Full-stack software developer in Boston.">
+    <meta name="author" content="Joe Campbell">
+    <title>Joe Campbell</title>
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+    <style>
+      html,body {
+        height: 100%;
+      }
+      .left-panel {
+        background-color: #212529;
+        display: table-cell;
+        vertical-align: middle;
+      }
+      .resume {
+        width: 100%;
+        height: 100%
+      }
+      .right-panel
+      {        
+        background-color: #233143
+      }​
 
-    <title>Joseph Campbell</title>
+      .fa-custom {
+        color: #aaaaaa;
+      }
+      .child {margin:10px; }
 
-    <!--<link rel="stylesheet" href="css/resume.css" type="text/css">-->
-    <!-- Bootstrap Core CSS -->
+      .info {
+        text-align: center;
+      }
+      h3,h5 {
+        color: #aaaaaa;
+        font-family: Arial, Helvetica, sans-serif;
+      }
 
-    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    </style>
 
-    <!-- Custom Fonts -->
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 
-    <!-- Plugin CSS -->
-    <link rel="stylesheet" href="css/animate.min.css" type="text/css">
+    <!-- jQuery and JS bundle w/ Popper.js -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/creative.css" type="text/css">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-    <script src="js/processing-1.0.0.min.js"></script>
 </head>
-
-<body id="page-top">
-    
-    <a href="/processing.html"></a>
-    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
-        <div class="container-fluid">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand page-scroll" style="color:gray;" href="#page-top">JC</a>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a class="page-scroll" style="color:gray;" href="#about">About</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" style="color:gray;" href="#resume">Resume</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" style="color:gray;" href="#projects">Projects</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" style="color:gray;" href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container-fluid -->
-    </nav>
-
-    <header>
-        <div class="header-content">
-            <div class="header-content-inner">
-                <h1>Joe Campbell</h1>
-                <hr>
-                <p>Student, Programmer, Dog-Lover</p>
-                <a href="#about" class="btn btn-primary btn-xl page-scroll">Here's me!</a>
-            </div>
-        </div>
-    </header>
-
-    <section class="bg-primary" id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-7 text-center">
-                    <h2 class="section-heading">About Me</h2>
-                    <hr class="light">
-                    <p class="text-faded">
-                    <h4>I'm Joe Campbell, a senior at Tufts University in the School of Engineering. I expect to graduate in May 2018 with a Bachelor of Science in Computer Science and a Bachelor of Arts in Economics.</h4>
-
-                    <p><h4>I have a passion for creating useful, fun, and interesting applications by combining my passions for software engineering and business.  Lately, I have been working a lot with full stack web development as well as android development.<h4></p>
-
-                    <p><h4>You can find me out playing frisbee or hiking on a nice day, hacking some new idea at night, and spending some quality time with my dog, Maddie.  </h4></p>
-
-                    <p><h4>I am driven by the possibility of creating something great and hope to accomplish that one day.</h4></p>
-                    </p>
-                </div>
-                <div class = "col-md-5">
-                    <p><img class="center-block" src="/img/pic.png" width="400" alt="Profile Picture"/></p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="resume">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Resume</h2>
-                    <a href="img/Joseph_Campbell_Resume.pdf">pdf view</a>
-                    <hr class="primary">
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div>
-                <p align="center"><strong>Joseph Campbell</strong><br />
-                978-496-7323<br />
-                joseph.campbell@tufts.edu</p>
-
-                <p><strong><em>Education</em></strong></p>
-
-                <p><strong>Tufts University, </strong> School of Engineering &ndash; Medford, MA<br>
-                Bachelor of Science in Computer Science, Minor in Economics, expected May 2018 <br>
-                GPA: 3.63, Dean's List</p>
-                </div>
-
-                <hr>
-
-                <p><strong><em>Professional Experience</em></strong></p>
-
-                <p><strong>Wayfair, </strong>June 2017 - present &ndash; <i>Software Engineering Intern - SEO</i>, Boston, MA</p>
-
-                <ul>
-                        <li>Implemented a dynamic XML sitemap for the over 2 million filterable browse pages on Wayfair and its international sites</li>
-                        <li>Migrated an internal pricing panel tool to React (from Tungsten and Mustache)</li>
-                        <li>Created an internal tool for SEO analysts which converts URLs between a new and old format</li>
-                </ul>
-
-                <p><strong>Tufts University, </strong>Spring 2017 - present &ndash; <i>Teaching Assistant - Web Programming</i>, Medford, MA</p>
-
-                <ul>
-                        <li>Worked individually with students on homework assignments and projects in the 120 person class.</li>
-                        <li>Graded homework assignments, providing constructive feedback.</li>
-                </ul>
-
-                <p><strong>Trumpit Inc., </strong>summer 2016 &ndash; <i>Software Engineering Intern - Quality Assurance</i>, Cambridge, MA</p>
-
-                <ul>
-                        <li>Designed and implemented an automated testing suite for the Android application using python, Appium/Selenium, and Testrail.</li>
-                        <li>Identified and communicated major security vunerabilities with potenial to overload and kill the server.</li>
-                        <li>Found, documented, and reported bugs as a leader on the QA team.</li>
-                </ul>
-
-                <p><strong>Yonward Inc., </strong>summer 2015 &ndash; <i>Intern</i>, Cambridge, MA</p>
-
-                <ul>
-                        <li>Built a preliminary web-app version of the mobile app using Javascript, HTML, and CSS.</li>
-                        <li>Beta-tested and provided feedback for an app in the early stages of development.</li>
-                        <li>Worked with local organizations and copmanies to cultivate app content.</li>
-                </ul>
-
-                <hr>
-
-                <p><strong><em>Technical Tools</em></strong></p>
-
-                <p><em>Languages: </em>Python, C++, C, JavaScript, HTML, CSS, SQL, Assembly, MATLAB, R
-                <br><em>Other Tools: </em>React, Node.js/Express, Bootstrap, GitHub, Linux command line, Selenium, DataGrip, TestRail</p>
-                <hr>
-
-                <p><strong><em>Projects</em></strong></p>
-                <p><i>All Projects can be found in the projects section of this website</i></p>
-
-                <ul>
-                        <li><em>MyDea: </em>An android application (live on the google Play Store) which is a platform for users to post an idea for a business or project and collaberate with others on the app.  Backend uses PostgreSQL with node hosted on Heroku.</li>
-                        <li><em>Maester: </em>A python package which allows the user to easily run unit tests for an android app on multiple devices in series. Maester is built on a stack of technologies including Appium/Selenium and pm2.</li>
-                        <li><em>FoodBucket: </em>A web app which allows users to search for restaurants by location and add them to a food bucket &ndash; effectively a bucket list of restaurants the user likes.  The user can also view friends' food buckets.</li>
-                </ul>
-
-                <hr>
-
-                <p><strong><em>Relevant Coursework</em></strong></p>
-
-                <p>Algorithms, Data Structures, Machine Structure and Assembly Programming Language, Computational Theory, Web Programming, Web Engineering, Android Development, Computational Biology, Discreet Math, Music and Engineering, Introduction to Computing in Engineering, Introduction to Electrical Systems, Introduction to Digital Logic Circuits</p>
-        </div>
-    </section>
-
-      <section class="no-padding" id="projects">
-        <div class="container-fluid">
-            <div class="row no-gutter">
-                <div class="col-lg-4 col-sm-6">
-                    <a href="https://github.com/jcamp1095/MyDea" target="_blank" class="projects-box">
-                        <img src="img/projects/7.jpg" class="img-responsive" alt="">
-                        <div class="projects-box-caption">
-                            <div class="projects-box-caption-content">
-                                <div class="project-name">
-                                    MyDea
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="https://github.com/JohnyGall/Maester" target="-blank" class="projects-box">
-                        <img src="img/projects/4.jpg" class="img-responsive" alt="">
-                        <div class="projects-box-caption">
-                            <div class="projects-box-caption-content">
-                                <div class="project-name">
-                                    Maester - Mobile Automation Platform
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="https://github.com/jcamp1095/FoodBucket-Website" target="_blank" class="projects-box">
-                        <img src="img/projects/5.jpg" class="img-responsive" alt="">
-                        <div class="projects-box-caption">
-                            <div class="projects-box-caption-content">
-                                <div class="project-name">
-                                    FoodBucket Website
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="https://github.com/jcamp1095/jcamp1095.github.io" target"_blank" class="projects-box">
-                        <img src="img/projects/3.jpg" class="img-responsive" alt="">
-                        <div class="projects-box-caption">
-                            <div class="projects-box-caption-content">
-                                <div class="project-name">
-                                    My Personal Website
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a data-toggle="modal" href="#CompressorModal" class="projects-box">
-                        <img src="img/projects/2.jpg" class="img-responsive" alt="">
-                        <div class="projects-box-caption">
-                            <div class="projects-box-caption-content">
-                                <div class="project-name">
-                                    Lossy Image Compressor
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="https://github.com/jcamp1095" target="-blank" class="projects-box">
-                        <img src="img/projects/6.jpg" class="img-responsive" alt="">
-                        <div class="projects-box-caption">
-                            <div class="projects-box-caption-content">
-                                <div class="project-name">
-                                    Check out Github for more projects!
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <aside class="bg-dark">
-        <div class="container text-center">
-            <div class="call-to-action">
-                <h2>Projects</h2>
-                <a href="https://github.com/jcamp1095" target="-blank" class="btn btn-default btn-xl">Check out my Github Page!</a>
-                <p><h6>Due to academic integrity rules in place at Tufts University, some projects may not be publically available.  To view, please contact me below. Thanks!</h6></p>
-            </div>
-        </div>
-    </aside>
-
-
-    <section id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">Say Hello!</h2>
-                    <hr class="primary">
-                    <p>Give me a call or send me an email.</p>
-                </div>
-                <div class="col-lg-4 col-lg-offset-2 text-center">
-                    <i class="fa fa-phone fa-3x wow bounceIn"></i>
-                    <p>978-496-7323</p>
-                </div>
-                <div class="col-lg-4 text-center">
-                    <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
-                    <p><a href="mailto:joseph.campbell@tufts.edu">joseph.campbell@tufts.edu</a></p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Modal -->
-    <div id="BoggleModal" class="modal fade" role="dialog">
-      <div class="modal-dialog">
-
-        <!-- Modal content-->
-        <div class="modal-content">
-          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal">&times;</button>
-            <h4 class="modal-title">Boggle</h4>
+<body>
+  <div class="container-fluid h-100">
+  <div class="row h-100">
+    <div class="col-sm-3 left-panel h-100 d-table">
+      <div class="info d-table-cell align-middle">
+        <h3>Joe Campbell</h3>
+        <h5>Senior Software Engineer in Boston</h5>
+          <div class="child"> 
+            <a href="https://www.linkedin.com/in/joseph-campbell-854bb4bb/">
+              <img border="10" alt="linkedin link" src="./img/LI-In-Bug.png" width="32">
+            </a>
           </div>
-          <div class="modal-body">
-            <p>The code for this project is not publically available due to academic integrity rules in place at Tufts
-                Univerity.  To view the code, please contact me below.</p>
+          <div class="child"> 
+            <a href="https://github.com/jcamp1095">
+              <img border="0" alt="github link" src="./img/Github-Mark-32px.png" width="32">
+            </a>
           </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          <div class="child"> 
+            <a href="mailto:jcamp1095@gmail.com">
+              <i class="fa fa-envelope-o fa-custom fa-2x"></i>
+            </a>
           </div>
         </div>
-
-      </div>
     </div>
-
-    <div id="CompressorModal" class="modal fade" role="dialog">
-      <div class="modal-dialog">
-
-        <!-- Modal content-->
-        <div class="modal-content">
-          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal">&times;</button>
-            <h4 class="modal-title">Lossy Image Compressor</h4>
-          </div>
-          <div class="modal-body">
-            <p>The code for this project is not publically available due to academic integrity rules in place at Tufts
-                Univerity.  To view the code, please contact me below.</p>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-          </div>
-        </div>
-
-      </div>
+    <div class="col-sm-9 right-panel">
+      <iframe src="./img/Joseph_Campbell_Resume.pdf" height="100%" width="100%"></iframe>
     </div>
-
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="js/jquery.easing.min.js"></script>
-    <script src="js/jquery.fittext.js"></script>
-    <script src="js/wow.min.js"></script>
-
-    <!-- Custom Theme JavaScript -->
-    <script src="js/creative.js"></script>
-
+  </div>
+</div>
 </body>
-
 </html>
